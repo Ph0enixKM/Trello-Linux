@@ -1,0 +1,7 @@
+Package: trello
+Version: 1.0
+Architecture: all
+Essential: no
+Priority: optional
+Maintainer: Paweł Karaś
+Description: Unofficial Trello Desktop application 

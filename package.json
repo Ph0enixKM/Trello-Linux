@@ -1,0 +1,41 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "compile": "parcel watch src/render/index.pug --out-dir src/dist/ --public-url .",
+    "run": "electron .",
+    "start": "concurrently \"npm run compile\" \"npm run run\" ",
+    "dist": "electron-builder build"
+  },
+  "build": {
+    "appId": "Trello",
+    "productName": "Trello Desktop",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "icons/icon256x256.png"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ph0enixKM/Trello-Linux.git"
+  },
+  "author": "Ph0enixKM <pkaras.it@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ph0enixKM/Trello-Linux/issues"
+  },
+  "homepage": "https://github.com/Ph0enixKM/Trello-Linux#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "electron": "8.0.0",
+    "electron-builder": "^22.7.0",
+    "parcel": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.26.8"
+  },
+  "dependencies": {}
+}

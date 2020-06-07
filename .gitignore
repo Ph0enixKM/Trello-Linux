@@ -1,0 +1,4 @@
+node_modules/
+dist/
+deb/trello_1.0.0/opt/trello-desktop
+deb/trello_1.0.0.deb
