@@ -33,7 +33,7 @@
     "concurrently": "^5.2.0",
     "electron": "8.0.0",
     "electron-builder": "^22.7.0",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "pug": "^3.0.0",
     "sass": "^1.26.8"
   },
