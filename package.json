@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Ph0enixKM/Trello-Linux#readme",
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^10.0.5",
     "electron": "22.0.2",
     "electron-builder": "^23.6.0",
     "parcel": "^2.8.2",
